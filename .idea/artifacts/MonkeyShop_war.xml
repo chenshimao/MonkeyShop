@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MonkeyShop:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MonkeyShop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MonkeyShop-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MonkeyShop:war exploded" />
+    </root>
+  </artifact>
+</component>
